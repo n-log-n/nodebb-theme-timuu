@@ -3,8 +3,8 @@
 <!-- ELSE -->
 <div class="row">
     <div class="<!-- IF widgets.sidebar.length -->col-lg-9 col-sm-12<!-- ELSE -->col-lg-12<!-- ENDIF widgets.sidebar.length -->">
-      <a href="{config.relative_path}/login"><button type="button" class="btn btn-primary"  style="float: right;" >
-          Add a New Movie
+      <a href="{config.relative_path}/login"><button type="button" class="btn btn-sucess"  style="float: right;" >
+          Login to add new movie
       </button></a>
     </div>
 </div>

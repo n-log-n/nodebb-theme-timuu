@@ -1,26 +1,48 @@
 .card {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    padding: 5px;
-  }
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 5px;
+}
 
-  .card-container {
-    display: table;
-    width: 100%;
-  }
+.card-container {
+  display: table;
+  width: 100%;
+}
 
-  .col {
-    display: table-cell;
-  }
-  
-  /* On mouse-over, add a deeper shadow */
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  /* Add some padding inside the card container */
-  .movie-content {
-    padding: 2px 16px;
-    word-wrap: break-word;
-  }
+.col {
+  display: table-cell;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.media-content {
+  padding: 2px 16px;
+  word-wrap: break-word;
+}
+
+.embed-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  max-width: 100% !important;
+  height: 100%;
+}
+.video-thumbnail{
+  z-index:300;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+}

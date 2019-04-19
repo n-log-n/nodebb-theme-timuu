@@ -6,11 +6,6 @@
 			<a class="div-href" href="{config.relative_path}/category/{../slug}" itemprop="url">
 				<h2 class="title">
 					<!-- IMPORT partials/categories/link.tpl --><br/>
-					{* <!-- IF ../descriptionParsed -->
-					<div class="description">
-						{../descriptionParsed}
-					</div>
-					<!-- ENDIF ../descriptionParsed --> *}
 				</h2>
 				
 				<div class="fixed-stats">
