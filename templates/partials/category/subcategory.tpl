@@ -1,5 +1,5 @@
 <!-- IF loggedIn -->
-<!-- IMPORT partials/search_movies.tpl -->
+<!-- IMPORT partials/search_media.tpl -->
 <!-- ELSE -->
 <div class="row">
     <div class="<!-- IF widgets.sidebar.length -->col-lg-9 col-sm-12<!-- ELSE -->col-lg-12<!-- ENDIF widgets.sidebar.length -->">
