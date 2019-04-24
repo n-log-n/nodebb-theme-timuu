@@ -1,7 +1,7 @@
 <div class="row">
     <div class="<!-- IF widgets.sidebar.length -->col-lg-9 col-sm-12<!-- ELSE -->col-lg-12<!-- ENDIF widgets.sidebar.length -->">
 	<!-- Button trigger modal -->
-	    <button type="button" class="btn btn-success"  style="float: right;" data-toggle="modal" data-target="#media_modal">
+	    <button id="media_search_btn" type="button" class="btn btn-success"  style="float: right;" data-toggle="modal" data-target="#media_modal">
 		  Find {title} and Join the Discussion
 		</button>
 		<!-- Modal -->
