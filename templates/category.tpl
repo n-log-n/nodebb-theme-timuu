@@ -4,6 +4,41 @@
 	{{widgets.header.html}}
 	<!-- END widgets.header -->
 </div>
+<!-- IF header -->
+<div class="card">
+	<div class="container-fliud">
+		<div class="wrapper row">
+            <div class="preview col-md-4">
+                <div class="preview-pic tab-content">
+                    <div class="tab-pane active" id="pic-1"><img class="img-responsive" src="{backgroundImage}" /></div>
+                </div>
+            </div>
+            <div class="details col-md-8">
+                <h1 class="product-title">{{name}}</h1>
+                <div class="rating">
+                    <div class="stars">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <span class="review-no">41 reviews</span>
+                </div>
+                <p class="product-description">{{../description}}</p>
+                <div class="action">
+                    <button component="category/post" id="new_topic" class="btn btn-primary">Create a New Topic</button>
+                    <button class="btn btn-default" type="button">View 18 Discussions</button>
+                    <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>
+                </div>
+                <h3>Discussion pages for Cast of {{name}} (Coming Soon)</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+
+<!-- ENDIF header -->
 <div class="row">
 	<div class="category <!-- IF widgets.sidebar.length -->col-lg-9 col-sm-12<!-- ELSE -->col-lg-12<!-- ENDIF widgets.sidebar.length -->">
 		<!-- IMPORT partials/category/subcategory.tpl -->
