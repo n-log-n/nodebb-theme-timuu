@@ -15,23 +15,14 @@
             </div>
             <div class="details col-md-8">
                 <h1 class="product-title">{{name}}</h1>
-                <div class="rating">
-                    <div class="stars">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                    </div>
-                    <span class="review-no">41 reviews</span>
-                </div>
                 <p class="product-description">{{../description}}</p>
                 <div class="action">
                     <button component="category/post" id="new_topic" class="btn btn-primary">Create a New Topic</button>
-                    <button class="btn btn-default" type="button">View 18 Discussions</button>
-                    <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>
+                    <button id="discussions-btn" class="btn btn-default" type="button">View {{topic_count}} Discussions</button>
                 </div>
-                <h3>Discussion pages for Cast of {{name}} (Coming Soon)</h3>
+				<h2 class="lead">               
+				This page is dedicated to discussions around <b>{{name}}</b>. You can watch trailers, read frequently asked questions and immerse yourself in trivia related to {{name}}.
+				</h2>
             </div>
         </div>
     </div>
