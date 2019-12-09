@@ -2,9 +2,8 @@
 	"id": "nodebb-theme-timuu",
 	"library": "./lib/theme.js",
 	"hooks": [
-		{
-			"hook": "filter:widgets.getAreas", "method": "defineWidgetAreas" 
-		}
+		{ "hook": "filter:widgets.getAreas", "method": "defineWidgetAreas"},
+		{ "hook": "filter:config.get", "method": "getThemeConfig" }
 	],
 	"scripts": [
 		"lib/client.js",
