@@ -44,9 +44,7 @@
 					<div class="post-bar-placeholder"></div>
 					<!-- ENDIF !posts.index -->
 				</li>
-				{if $title eq 'Movies like'}
-  				 <p class="small">Movie like <span class="font-weight-bold font-italic">{title} </span></span> </p>
-				{/if}
+
 			<!-- END posts -->
 		</ul>
 
