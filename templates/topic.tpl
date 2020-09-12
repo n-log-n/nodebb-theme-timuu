@@ -36,7 +36,6 @@
 			<!-- BEGIN posts -->
 				<li component="post" class="<!-- IF posts.deleted -->deleted<!-- ENDIF posts.deleted -->" <!-- IMPORT partials/data/topic.tpl -->>
 					<a component="post/anchor" data-index="{posts.index}" id="{posts.index}"></a>
-					<h2>{title}</h2>
 					<meta itemprop="datePublished" content="{posts.timestampISO}">
 					<meta itemprop="dateModified" content="{posts.editedISO}">
 					<!-- IMPORT partials/topic/post.tpl -->
@@ -44,6 +43,7 @@
 					<div class="post-bar-placeholder"></div>
 					<!-- ENDIF !posts.index -->
 				</li>
+				<p class="small">{title}</p>
 
 			<!-- END posts -->
 		</ul>
